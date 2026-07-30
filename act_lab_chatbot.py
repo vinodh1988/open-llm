@@ -2,6 +2,7 @@ import math
 import os
 import re
 from pathlib import Path
+from typing import Any, Dict, List, Union
 
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -32,7 +33,7 @@ def load_env(path: str = ".env") -> None:
             os.environ[key] = value
 
 
-def split_faqs(raw_text: str) -> list[str]:
+def split_faqs(raw_text: str) -> List[str]:
     """Split faqs.txt into separate FAQ chunks for vector search."""
     cleaned = raw_text.strip()
     parts = re.split(r"\n(?=\d+\.\s)", cleaned)
@@ -50,7 +51,7 @@ def split_faqs(raw_text: str) -> list[str]:
     return chunks
 
 
-def cosine_similarity(first: list[float], second: list[float]) -> float:
+def cosine_similarity(first: List[float], second: List[float]) -> float:
     """Compare two embedding vectors."""
     dot_product = sum(a * b for a, b in zip(first, second))
     first_length = math.sqrt(sum(a * a for a in first))
@@ -60,7 +61,7 @@ def cosine_similarity(first: list[float], second: list[float]) -> float:
     return dot_product / (first_length * second_length)
 
 
-def build_vector_knowledge_base() -> list[dict[str, object]]:
+def build_vector_knowledge_base() -> List[Dict[str, Any]]:
     """Vectorize faqs.txt using LangChain OpenAI embeddings."""
     if not FAQ_FILE.exists():
         raise RuntimeError("faqs.txt was not found in the project folder.")
@@ -81,7 +82,7 @@ def build_vector_knowledge_base() -> list[dict[str, object]]:
 
 def retrieve_relevant_faqs(
     question: str,
-    knowledge_base: list[dict[str, object]],
+    knowledge_base: List[Dict[str, Any]],
 ) -> str:
     """Find the FAQ entries closest to the user's question."""
     embeddings = OpenAIEmbeddings(api_key=os.environ["OPENAI_API_KEY"])
@@ -124,9 +125,9 @@ def build_system_prompt() -> str:
 
 def answer_question(
     chat: ChatOpenAI,
-    history: list[HumanMessage | AIMessage],
+    history: List[Union[HumanMessage, AIMessage]],
     question: str,
-    knowledge_base: list[dict[str, object]],
+    knowledge_base: List[Dict[str, Any]],
 ) -> AIMessage:
     """Retrieve FAQ context and generate a scoped answer."""
     faq_context = retrieve_relevant_faqs(question, knowledge_base)
@@ -146,7 +147,7 @@ def run_chatbot() -> None:
     """Run the 10-message command-line ACT IT Lab chatbot session."""
     chat = create_chat_model()
     knowledge_base = build_vector_knowledge_base()
-    history: list[HumanMessage | AIMessage] = []
+    history: List[Union[HumanMessage, AIMessage]] = []
     assistant_replies = 0
 
     print("ACT IT Lab FAQ Chatbot")
@@ -190,3 +191,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
