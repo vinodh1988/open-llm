@@ -1,0 +1,151 @@
+ABC College of Technology - IT Lab FAQs
+
+1. What is the IT Lab used for?
+ABC College of Technology uses the IT Lab for programming, database, networking, web, OS, and project practical sessions.
+
+2. Where is the IT Lab located?
+The ACT IT Lab is in CSE Block, Room C-204; for room changes contact labhelp@abc-tech.edu.
+
+3. What operating systems are installed?
+ACT lab systems are configured with Windows 11 and Ubuntu Linux in dual boot mode.
+
+4. What is dual boot?
+At ACT, dual boot means the same lab PC can start either Windows or Ubuntu based on the practical session.
+
+5. How do I select Windows or Linux?
+When the ACT lab PC starts, choose Windows Boot Manager or Ubuntu using arrow keys and Enter.
+
+6. What is the default operating system?
+Most ACT IT Lab PCs boot to Windows by default unless Ubuntu was selected in the previous session.
+
+7. What if the system boots into the wrong OS?
+Restart the ACT lab PC and select the correct OS before starting the exercise.
+
+8. What is the default Windows username?
+Use actstudent as the Windows lab username unless your faculty gives a batch-specific ID.
+
+9. What is the default Windows password?
+Use the sample shared password Act@Lab123 only if your lab instructor confirms it for that session.
+
+10. What is the default Linux username?
+Use actlinux as the Ubuntu lab username for common practical sessions.
+
+11. What is the default Linux password?
+Use the sample password Linux@ACT123 only when announced by the ACT lab assistant.
+
+12. Can I change the default password?
+No. ACT shared lab passwords must not be changed by students.
+
+13. What should I do if login fails?
+Report your system number to labhelp@abc-tech.edu or call ACT IT Lab extension 204.
+
+14. Can I use my personal login?
+Only students with ACT IDs like ACT23CSE045 should use personal logins.
+
+15. Is internet available in the lab?
+Yes. ACT provides internet through the ABC-ITLAB network for academic use.
+
+16. Can I browse non-academic websites?
+No. ACT IT Lab internet is restricted to learning, assignments, and project activities.
+
+17. What Wi-Fi should I use near the lab?
+Use ABC-Student-WiFi with your college ID, or ask support@abc-tech.edu for access help.
+
+18. What software is installed?
+ACT lab PCs include VS Code, Python, Java JDK, GCC, MySQL, browsers, office tools, and utilities.
+
+19. Is Microsoft Office available?
+ACT Windows systems include office tools for lab records, reports, and project documentation.
+
+20. Are programming tools installed?
+Yes. ACT installs C/C++, Java, Python, VS Code, Eclipse, Git, and web development tools.
+
+21. Is Python installed?
+Yes. Python is available for programming, AI, data science, and automation exercises.
+
+22. Is Java installed?
+Yes. Java JDK is installed for OOP, application development, and semester practicals.
+
+23. Are database tools installed?
+Yes. ACT provides MySQL and SQLite tools for DBMS and application labs.
+
+24. Can I install new software?
+No. Request software installation through cse.labadmin@abc-tech.edu.
+
+25. What if required software is missing?
+Mail cse.labadmin@abc-tech.edu with the system number, software name, and subject code.
+
+26. Can I uninstall software?
+No. Removing ACT lab software can affect other batches and scheduled practicals.
+
+27. Where are exercise files stored in Windows?
+Check D:\ACT_Lab\Exercises\ or the subject folder shared by your instructor.
+
+28. Where are exercise files stored in Linux?
+Check /home/actlinux/ACT_Lab/Exercises/ unless your faculty gives another path.
+
+29. What if I cannot find exercise files?
+Ask the lab instructor or mail labhelp@abc-tech.edu with your subject and batch.
+
+30. Can I edit original exercise files?
+No. Copy files to D:\ACT_Lab\Students\YourRollNo before editing.
+
+31. Where should I save my work?
+Save work in your roll-number folder, such as D:\ACT_Lab\Students\ACT23CSE045.
+
+32. Is work saved on lab computers permanent?
+No. ACT lab PCs may be cleaned during maintenance, exams, or semester resets.
+
+33. Should I back up my files?
+Yes. Back up to the ACT LMS, your college email, or approved USB storage.
+
+34. Can I use USB drives?
+USB use is allowed only with faculty permission and after malware scanning by lab staff.
+
+35. What if USB access is blocked?
+Use ACT LMS upload or mail files from your college email to your instructor.
+
+36. Are printers available?
+Printing is available through the lab assistant at C-204 for approved academic documents.
+
+37. Whom do I call for urgent lab support?
+Call ACT IT Lab extension 204 or the campus support number 044-4000-1204.
+
+38. What is the IT support email?
+Use support@abc-tech.edu for college-wide IT issues and labhelp@abc-tech.edu for lab issues.
+
+39. Who is the lab administrator contact?
+For lab software and system access, contact cse.labadmin@abc-tech.edu.
+
+40. Can I eat or drink in the lab?
+No. ACT strictly prohibits food and drinks near lab computers and power equipment.
+
+41. Can I move keyboards or mice?
+No. ACT lab accessories are mapped to specific system numbers and should not be swapped.
+
+42. What if a keyboard or mouse is not working?
+Report the system number to the lab assistant or mail labhelp@abc-tech.edu.
+
+43. What should I do if the computer freezes?
+Call the lab assistant before forcing restart, especially during exams or evaluations.
+
+44. Can I restart the computer?
+Restart only if required for OS selection, software issues, or when ACT staff allows it.
+
+45. Can I shut down the computer after use?
+Yes, shut down after your practical unless the faculty asks the batch to leave systems on.
+
+46. What if Linux asks for sudo access?
+Do not use sudo unless the instructor provides a temporary lab password for that activity.
+
+47. What if Windows asks for administrator access?
+Contact ACT IT support; students must not try alternate admin passwords.
+
+48. Can I change system settings?
+No. ACT display, network, boot, security, and user settings must remain unchanged.
+
+49. Are lab sessions monitored?
+Yes. ACT may monitor login IDs, internet usage, and system activity for security.
+
+50. What happens if lab rules are violated?
+ACT may block the user ID, restrict lab access, or report the issue to the department.
