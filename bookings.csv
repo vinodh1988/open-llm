@@ -1,0 +1,4 @@
+booking_id,event_name,participant_name,email,date,time,booked_at
+BKG-20260731105238,Prompt Engineering for Teams,Viodh,writevinodh@gmail.com,2026-09-18,12:00,2026-07-31T10:52:38
+BKG-20260731111035,MLOps Deployment Sprint,Rahul,writevinodh@gmail.com,2026-10-17,11:45,2026-07-31T11:10:35
+BKG-20260731120413,MLOps Deployment Sprint,Peterson,writevinodh@gmail.com,2026-10-17,11:45,2026-07-31T12:04:13

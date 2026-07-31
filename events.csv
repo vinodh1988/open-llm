@@ -1,0 +1,13 @@
+name,speaker,seats,booked,time,date
+Python Automation Bootcamp,Dr. Nisha Rao,40,40,10:00,2026-07-15
+Intro to DevOps Pipelines,Vikram Sethi,32,28,13:30,2026-07-22
+Cloud Native Containers,Arjun Menon,35,12,14:00,2026-07-31
+Observability War Room,Neha Thomas,25,9,17:00,2026-07-31
+AI Agents with LangChain,Meera Kapoor,50,18,11:00,2026-08-08
+Secure API Design,Rahul Iyer,30,7,15:30,2026-08-20
+Kubernetes Troubleshooting Clinic,Farah Ali,36,21,10:30,2026-08-28
+Data Engineering Pipelines,Sana Joseph,45,45,09:30,2026-09-05
+Serverless Patterns Lab,Joel Fernandes,28,3,16:00,2026-09-12
+Prompt Engineering for Teams,Ishaan Bhat,60,15,12:00,2026-09-18
+GenAI Security Roundtable,Aditi Sharma,22,22,18:00,2026-10-03
+MLOps Deployment Sprint,Karan Malhotra,40,13,11:45,2026-10-17
